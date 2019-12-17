@@ -10,7 +10,7 @@
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnOggLoadCompleted, USoundWave*, SoundData);
 
 UCLASS()
-class FRIGRATEBRIDGESIM_API UOggLoader : public UObject
+class NARL_API UOggLoader : public UObject
 {
 	GENERATED_BODY()
 public:

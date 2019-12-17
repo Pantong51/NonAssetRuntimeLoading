@@ -11,7 +11,7 @@ class UTexture2D;
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnImageLoadCompleted, UTexture2D*, Texture);
 
 UCLASS()
-class FRIGRATEBRIDGESIM_API UImageLoader : public UObject
+class NARL_API UImageLoader : public UObject
 {
 	GENERATED_BODY()
 public:

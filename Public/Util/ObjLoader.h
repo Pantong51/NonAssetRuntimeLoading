@@ -51,7 +51,7 @@ public:
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnObjLoadCompleted, FReturnedData, MeshData);
 
 UCLASS()
-class FRIGRATEBRIDGESIM_API UObjLoader : public UObject
+class NARL_API UObjLoader : public UObject
 {
 	GENERATED_BODY()
 public:
